@@ -19,7 +19,7 @@ end
 new0
 end
 
-def map_to_no_double(source)
+def map_to_double(source)
   x = 0 
   new0 = []
   while x < source.length do
