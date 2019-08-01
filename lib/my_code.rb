@@ -19,5 +19,11 @@ new
 end
 
 def map_to_no_change(source)
-  (source).length do 
-    puts 
+  x = 0 
+  new0 = []
+  while x < source.length do
+    new0 << source[x]
+  x += 1 
+end 
+new0
+end
