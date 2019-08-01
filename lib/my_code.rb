@@ -13,7 +13,7 @@ def map_to_change(source_array)
   i = 0 
   while i < source_array.length do 
     new.push (source_array[count])
-    count += -1
+    i += -1
 end
 new
 end
