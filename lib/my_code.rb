@@ -23,7 +23,7 @@ def map_to_no_double(source)
   x = 0 
   new0 = []
   while x < source.length do
-    new0 << (source[x] * 2)
+    new0 << ((source[x]) * 2)
   x += 1 
 end 
 new0
