@@ -8,15 +8,6 @@ def map_to_negativize(source_array)
  neg
 end
 
-def map_to_change(source_array)
-  new = []
-  i = 0 
-  while i < source_array.length do 
-    new.push (source_array[count])
-    i += -1
-end
-new
-end
 
 def map_to_no_change(source)
   x = 0 
